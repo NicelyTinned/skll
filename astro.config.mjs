@@ -9,19 +9,19 @@ export default defineConfig({
 	base: "/skll",
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'SKLL Documentation',
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/NicelyTinned/skll-lang' }],
 			sidebar: [
 				{
 					label: 'Guides',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
+						{ label: 'Example Guide', slug: '/guides/example' },
 					],
 				},
 				{
 					label: 'Reference',
-					items: [{ autogenerate: { directory: 'reference' } }],
+					items: [{ autogenerate: { directory: '/reference' } }],
 				},
 			],
 			expressiveCode: {
