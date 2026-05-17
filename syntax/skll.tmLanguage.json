@@ -1,0 +1,39 @@
+{
+  "scopeName": "source.skll",
+  "name": "skll",
+  "patterns": [
+    {
+      "name": "comment.line.double-slash.skll",
+      "match": "//.*$"
+    },
+    {
+      "name": "keyword.control.skll",
+      "match": "\\b(if|while|let|const|cooldown)\\b"
+    },
+    {
+      "name": "keyword.other.special.skll",
+      "match": "#(special|macro|unroll)\\b"
+    },
+    {
+      "name": "entity.name.section.skll",
+      "match": "\\bskill\\b"
+    },
+    {
+      "name": "support.function.builtin.skll",
+      "match": "\\b(wait|skill|velocity|state|hitbox|anim|sfx|visual|grab|projectile|counter|ultgib|hpgib|evgib|hit|target)(?=\\()"
+    },
+    {
+      "name": "string.quoted.double.skll",
+      "begin": "\"",
+      "end": "\""
+    },
+    {
+      "name": "constant.numeric.skll",
+      "match": "\\b[0-9.]+\\b"
+    },
+    {
+      "name": "keyword.operator.increment-decrement.skll",
+      "match": "(\\+\\+|\\-\\-)"
+    }
+  ]
+}
