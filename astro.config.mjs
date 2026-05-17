@@ -25,7 +25,7 @@ export default defineConfig({
 				},
 			],
 			expressiveCode = {
-				shiki = {
+				shiki: {
 					theme: 'one-dark-pro',
 					langs: [skllGrammar]
 				},
