@@ -1,6 +1,7 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import skllGrammar from './syntax/skll.tmLanguage.json';
 
 // https://astro.build/config
 export default defineConfig({
@@ -26,6 +27,7 @@ export default defineConfig({
 			expressiveCode = {
 				shiki = {
 					theme: 'one-dark-pro',
+					langs: [skllGrammar]
 				},
 			},
 		}),
