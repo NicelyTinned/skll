@@ -24,7 +24,7 @@ export default defineConfig({
 					items: [{ autogenerate: { directory: 'reference' } }],
 				},
 			],
-			expressiveCode = {
+			expressiveCode: {
 				shiki: {
 					theme: 'one-dark-pro',
 					langs: [skllGrammar]
