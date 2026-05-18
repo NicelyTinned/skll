@@ -1,5 +1,5 @@
 ---
-title: `skill` blocks and More
+title: "`skill` blocks and More"
 description: An introduction to skills and more (coming soon)
 ---
 
