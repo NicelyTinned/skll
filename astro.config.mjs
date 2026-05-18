@@ -17,6 +17,9 @@ export default defineConfig({
 					items: [
 						// Each item here is one entry in the navigation menu.
 						{ label: 'Getting Started', slug: 'guides/start' },
+						{ label: 'Blocks', slug: 'guides/blocks' },
+						{ label: 'If, While and #unroll', slug: 'guides/iwau'},
+						{ label: 'Macros', slug: 'guides/macros' },
 					],
 				},
 				{
